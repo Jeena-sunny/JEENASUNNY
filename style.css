@@ -3,9 +3,16 @@
 --gradient1:linear-gradient(90deg, #00C9FF 0%, #92FE9D 100%);
 --second-color:#40E0D0;
 }
+body{
+    height: 100vh;
+}
 .colour{
     background-color:var(--main-color);
-
+transition: transform 0.5s ease-in;
+}
+.colour:hover{
+    background-color:rgb(98, 233, 236);
+    transform: translateY(-6px);
 }
    .cursive1 {
 font-family: 'Oleo Script', cursive;
@@ -22,3 +29,27 @@ font-family: 'Oleo Script', cursive;
   text-decoration: none; /* removes underline */
   font-weight: 500;
 }
+.back{
+    background-color: black;
+
+}
+ .ima {
+    
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      background: url("./images/4.webp") no-repeat center center/cover;
+      font-family: Arial, sans-serif;
+    }
+     .signup-box{
+      width: 380px;
+      padding: 30px;
+      background: rgba(255, 255, 255, 0.15);
+      border-radius: 15px;
+      backdrop-filter: blur(8px);
+      box-shadow: 0 8px 25px rgba(0,0,0,0.5);
+
+      text-align: center;
+    }
