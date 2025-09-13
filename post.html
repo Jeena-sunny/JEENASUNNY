@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+    integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+    crossorigin="anonymous"></script>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body class="he">
+  <nav class="navbar navbar-expand-lg bg-primary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+      <a href="http://127.0.0.1:5500/post-list-page.html"> <img src="./images/socia2.png" alt="logo" class="logo-img">
+      </a>
+</a> 
+      <form class="d-flex" role="search">
+
+        <div class="input-group">
+          <span class="input-group-text bg-white border-0">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </span>
+          <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+        </div>
+
+      </form>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#"><i class="fa-solid fa-house fa-2x logo"
+                title="home"></i></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"> <i class="fa-duotone fa-solid fa-video fa-2x logo" title="vedios"></i></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"><i class="fa-duotone fa-solid fa-people-line fa-2x logo"
+                title="groups"></i></a>
+          </li>
+
+        </ul>
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#"><i class="fa-solid fa-bell nav-icon fa-2x" title="Notifications"></i></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"><i class="fa-solid fa-comment-dots nav-icon fa-2x" title="Messages"></i></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"><img src="./images/christopher-campbell-rDEOVtE7vOs-unsplash.jpg" alt=""
+                class="logo-img"></a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- nav section ends -->
+
+  <div class=" text-center">
+    <div class="row">
+      <div class="col">
+        <div class="sidebar">
+          <div class="sidebar-item">
+            <a class="nav-link" href="http://127.0.0.1:5500/post-list-page.html"><img src="./images/christopher-campbell-rDEOVtE7vOs-unsplash.jpg" alt="profile"
+                class="logo-img"></a> <span>Jhon doe</span>
+          </div>
+          <div class="sidebar-item">
+            <i class="fa-solid fa-circle-nodes"></i>
+            <span>Meta AI</span>
+          </div>
+          <div class="sidebar-item">
+            <i class="fa-solid fa-user-group"></i>
+            <span>Friends</span>
+          </div>
+          <div class="sidebar-item">
+            <i class="fa-solid fa-clock-rotate-left"></i>
+            <span>Memories</span>
+          </div>
+          <div class="sidebar-item">
+            <i class="fa-solid fa-bookmark"></i>
+            <span>Saved</span>
+          </div>
+          <div class="sidebar-item">
+            <i class="fa-solid fa-users"></i>
+            <span>Groups</span>
+          </div>
+          <div class="sidebar-item">
+            <i class="fa-solid fa-video"></i>
+            <span>Video</span>
+          </div>
+          <div class="sidebar-item">
+            <i class="fa-solid fa-store"></i>
+            <span>Marketplace</span>
+          </div>
+          <div class="sidebar-item">
+            <i class="fa-solid fa-newspaper"></i>
+            <span>Feeds</span>
+          </div>
+          <div class="sidebar-item">
+            <i class="fa-solid fa-calendar-days"></i>
+            <span>Events</span>
+          </div>
+        </div>
+
+
+
+      </div>
+
+
+
+
+
+      <!-- second -->
+      <div class="col-6">
+     <div class="bg-light m-5 border rounded p-3 mt-3">
+
+            <div class="d-flex align-items-center ">
+              <i class="fa-solid fa-circle-user fa-2x me-2"></i>
+              <form>
+                <input class="form-control" type="text" placeholder="What's on your mind?">
+              </form>
+            </div>
+
+            <hr>
+
+            
+            <div class="d-flex justify-content-around">
+              <div class="d-flex align-items-center">
+                <i class="fa-solid fa-video me-2" style="color: #e31c48;" title="Live Video"></i>
+                <span class="fw-semibold">Live Video</span>
+              </div>
+              <div class="d-flex align-items-center">
+                <i class="fa-solid fa-images me-2" style="color: #45bd62;" title="Photo/Video"></i>
+                <span class="fw-semibold">Photo/Video</span>
+              </div>
+              <div class="d-flex align-items-center">
+                <i class="fa-solid fa-face-smile me-2" style="color: #f7b928;" title="Feeling/Activity"></i>
+                <span class="fw-semibold">Feeling/Activity</span>
+              </div>
+            </div>
+          </div>
+<div> 
+
+<!-- banner -->
+<div id="carouselExample" class="carousel slide">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+    <div class="d-flex p-3 carousel-container">
+
+  <div class="story bg-secondary d-flex justify-content-center align-items-center text-white">
+    <div class="text-center">
+      <div class="rounded-circle bg-white text-dark d-flex justify-content-center align-items-center mx-auto mb-2" style="width:40px; height:40px;">+</div>
+      Create<br>Story
+    </div>
+  </div>
+
+  
+  <div class="story">
+    <img src="./images/benjamin-hibbert-hingston-4IH2rRlCnKs-unsplash.jpg" alt="story">
+    <div class="profile">
+      <img src="./images/ayo-ogunseinde-6W4F62sN_yI-unsplash.jpg" alt="profile">
+    </div>
+    <div class="name">Anel Antony</div>
+  </div>
+
+  <div class="story">
+    <img src="./images/steve-gribble-ZDw4bMLSUXA-unsplash.jpg" alt="story">
+    <div class="profile">
+      <img src="./images/ian-dooley-d1UPkiFd04A-unsplash.jpg" alt="profile">
+    </div>
+    <div class="name">Thomas Kutty</div>
+  </div>
+
+  <div class="story">
+    <img src="./images/joseph-gonzalez-iFgRcqHznqg-unsplash.jpg" alt="story">
+    <div class="profile">
+      <img src="./images/lal.jpg" alt="profile">
+    </div>
+    <div class="name">Antony Joseph</div>
+  </div>
+</div>
+    </div>
+    <div class="carousel-item">
+      <div class="d-flex p-3 carousel-container">
+
+  <div class="story bg-secondary d-flex justify-content-center align-items-center text-white">
+   <div class="story">
+    <img src="./images/thomas-crozier-Ngj2u4PHjBY-unsplash.jpg" alt="story">
+    <div class="profile">
+      <img src="./images/lal.jpg" alt="profile">
+    </div>
+    <div class="name">joseph Joseph</div>
+  </div> 
+
+
+  </div>
+
+  
+  <div class="story">
+    <img src="./images/michael-dam-mEZ3PoFGs_k-unsplash.jpg" alt="story">
+    <div class="profile">
+      <img src="./images/mac.jpg" alt="profile">
+    </div>
+    <div class="name">maria Antony</div>
+  </div>
+
+  <div class="story">
+    <img src="./images/punna.jpg" alt="story">
+    <div class="profile">
+      <img src="./images/rafaella-mendes-diniz-et_78QkMMQs-unsplash.jpg" alt="profile">
+    </div>
+    <div class="name">joseph Kutty</div>
+  </div>
+
+  <div class="story">
+    <img src="./images/rikas-rasheed-iq5jLDMVXZQ-unsplash.jpg" alt="story">
+    <div class="profile">
+      <img src="./images/shana-van-roosbroek-uMnIZ8CTVOg-unsplash.jpg" alt="profile">
+    </div>
+    <div class="name">vishnu Joseph</div>
+  </div>
+</div>
+    </div>
+    <div class="carousel-item">
+     <div class="d-flex p-3 carousel-container">
+
+  <div class="story bg-secondary d-flex justify-content-center align-items-center text-white">
+   <div class="story">
+    <img src="./images/toa-heftiba-O3ymvT7Wf9U-unsplash.jpg" alt="story">
+    <div class="profile">
+      <img src="./images/trad.jpg" alt="profile">
+    </div>
+    <div class="name">Antony Joseph</div>
+  </div>
+  </div>
+
+  
+  <div class="story">
+    <img src="./images/vladislav-zakharevich-Nq1yYSYCKAQ-unsplash.jpg" alt="story">
+    <div class="profile">
+      <img src="https://via.placeholder.com/40" alt="profile">
+    </div>
+    <div class="name">Ann Antony</div>
+  </div>
+
+  <div class="story">
+    <img src="./images/benjamin-hibbert-hingston-4IH2rRlCnKs-unsplash.jpg" alt="story">
+    <div class="profile">
+      <img src="./images/vathar.jpg" alt="profile">
+    </div>
+    <div class="name">Jordan J</div>
+  </div>
+
+  <div class="story">
+    <img src="./images/4.webp" alt="story">
+    <div class="profile">
+      <img src="./images/lal.jpg" alt="profile">
+    </div>
+    <div class="name">Antony Joseph</div>
+  </div>
+</div>
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+
+
+
+<!-- imp -->
+
+
+
+<!-- end banner -->
+
+
+  <div class="bg-light m-5 border rounded p-3 mt-3">
+
+            <div class="d-flex justify-content-centre">
+              <img src="./images/ian-dooley-d1UPkiFd04A-unsplash.jpg" alt="logo" class="logo-img">
+              <p><span class="fw-bold">sharon Joseph <br>august 27 6:30pm</span>
+            </div>
+
+            <p class="d-flex justify-content-between">my clicks</p>
+
+            
+            <div class="w-100 ">
+              <img class="w-100" src="./images/benjamin-hibbert-hingston-4IH2rRlCnKs-unsplash.jpg" alt="">
+           <div class=" d-flex justify-content">
+  <i class="fa-solid fa-heart mt-2 text-white d-flex justify-content-center align-items-center"
+     style="background-color: red; border-radius: 50%; width: 40px; height: 40px;"></i>
+     <i class="fa-solid mt-2 fa-thumbs-up text-white d-flex justify-content-center align-items-center" style="background-color: rgb(21, 140, 199); border-radius: 50%; width: 40px; height: 40px;"></i>
+     <span class="mt-2">betty joseph ,anotony joseph and 103 others</span>
+
+    </div>
+    <hr>
+<a href=""><i class="fa-solid fa-thumbs-up fa-2x"></i><span class="text-primary">like</span></a>
+<a href=""><i class="fa-regular fa-comment fa-2x ms-5" style="color: #74C0FC;"></i></i><span class="fs-5">comment</span></a>
+<a href=""> <i class="fa-solid fa-share fa-2x ms-5" style="color: #74C0FC;"></i><span class="fs-5">share</span>  </a>         
+</div>
+
+          </div></div>
+
+<div class="bg-light m-5 border rounded p-3 mt-3">
+
+            <div class="d-flex justify-content-centre">
+              <img src="./images/ian-dooley-d1UPkiFd04A-unsplash.jpg" alt="logo" class="logo-img">
+              <p><span class="fw-bold">albin antony<br>august 27 6:30pm</span>
+            </div>
+
+            <p class="d-flex ">✨ Big screen update! ✨
+Vicky Kaushal’s mythological epic Mahavtar has officially been pushed to 2027 due to scheduling overlaps with Sanjay Leela Bhansali’s Love & War,… See more
+            
+            <div class="w-100 ">
+              <img class="w-100" src="./images/vathar.jpg" alt="">
+           <div class=" d-flex justify-content">
+  <i class="fa-solid fa-heart mt-2 text-white d-flex justify-content-center align-items-center"
+     style="background-color: red; border-radius: 50%; width: 40px; height: 40px;"></i>
+     <i class="fa-solid mt-2 fa-thumbs-up text-white d-flex justify-content-center align-items-center" style="background-color: rgb(21, 140, 199); border-radius: 50%; width: 40px; height: 40px;"></i>
+     <span class="mt-2">betty joseph ,joseph joseph and 109 others</span>
+
+    </div>
+    <hr>
+<a href=""><i class="fa-regular fa-thumbs-up fa-2x"></i><span class="text-primary">like</span></a>
+<a href=""><i class="fa-regular fa-comment fa-2x ms-5" style="color: #74C0FC;"></i></i><span class="fs-5">comment</span></a>
+<a href=""> <i class="fa-solid fa-share fa-2x ms-5" style="color: #74C0FC;"></i><span class="fs-5">share</span>  </a>         
+</div>
+
+          </div>
+
+      
+<div class="bg-light m-5 border rounded p-3 mt-3">
+
+            <div class="d-flex justify-content-centre">
+              <img src="./images/ian-dooley-d1UPkiFd04A-unsplash.jpg" alt="logo" class="logo-img">
+              <p><span class="fw-bold">Scalora Jordan Donnie<br>august 27 6:30pm</span>
+            </div>
+
+            <p class=" ">🎁 Activate 12 months of TradingView Premium — free of charge
+📈 Precision charts, advanced analytics, and real-time multi-asset feeds in one workspace
+🌐… <span class="text-primary">See more</span>
+            
+            <div class="w-100 ">
+              <img class="w-100" src="./images/trad.jpg" alt="">
+           <div class=" d-flex justify-content">
+  <i class="fa-solid fa-heart mt-2 text-white d-flex justify-content-center align-items-center"
+     style="background-color: red; border-radius: 50%; width: 40px; height: 40px;"></i>
+     <i class="fa-solid mt-2 fa-thumbs-up text-white d-flex justify-content-center align-items-center" style="background-color: rgb(21, 140, 199); border-radius: 50%; width: 40px; height: 40px;"></i>
+     <span class="mt-2">binny sebastian ,manu s and 109 others</span>
+
+    </div>
+    <hr>
+<a href=""><i class="fa-regular fa-thumbs-up fa-2x"></i><span class="text-primary">like</span></a>
+<a href=""><i class="fa-regular fa-comment fa-2x ms-5" style="color: #74C0FC;"></i></i><span class="fs-5">comment</span></a>
+<a href=""> <i class="fa-solid fa-share fa-2x ms-5" style="color: #74C0FC;"></i><span class="fs-5">share</span>  </a>         
+</div>
+
+          </div>
+      </div>
+
+
+
+      <!-- THIRD -->
+      <div class="col">
+        <div class="contacts">
+          <div class="contacts-header">
+            <span>Contacts</span>
+            <i class="fa-solid fa-magnifying-glass" title="search a name"></i>
+            <span>⋯</span>
+          </div>
+
+
+
+          <div class="contact">
+            <img src="./images/benjamin-hibbert-hingston-4IH2rRlCnKs-unsplash.jpg" alt="unavilable">
+
+            <span>anoop A</span>
+          </div>
+
+          <div class="contact">
+            <img src="./images/toa-heftiba-O3ymvT7Wf9U-unsplash.jpg" alt="unavialble">
+            <span>vinod mk</span>
+          </div>
+
+          <div class="contact">
+            <img src="./images/joseph-gonzalez-iFgRcqHznqg-unsplash.jpg" alt="unavialble">
+
+            <span>ANoop PK</span>
+          </div>
+
+          <div class="contact">
+            <img src="./images/michael-dam-mEZ3PoFGs_k-unsplash.jpg" alt="Roby">
+
+            <span>alex d </span>
+          </div>
+          <div class="contact">
+            <img src="./images/vladislav-zakharevich-Nq1yYSYCKAQ-unsplash.jpg" alt="unavialble">
+            <span>ARUN M</span>
+          </div>
+          <div class="contact">
+            <img src="./images/steve-gribble-ZDw4bMLSUXA-unsplash.jpg" alt="unavialble">
+            <span>VISHNU R</span>
+          </div>
+          <div class="contact">
+            <img src="./images/mac.jpg" alt="unavialble">
+            <span>MEENU S</span>
+          </div>
+          <div class="contact">
+            <img src="./images/rikas-rasheed-iq5jLDMVXZQ-unsplash.jpg" alt="Stephin">
+
+            <span>Stephin Jozeph </span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>
